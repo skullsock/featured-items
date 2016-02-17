@@ -1,0 +1,101 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+/*header, nav, h1, figure, main, article {
+  min-height: 100px;
+}*/
+.wrapper {
+  height:  800px;
+  width: 400px;
+}
+header {
+  height: 1em;
+  background-color: green;
+}
+nav {
+  height: 20px;
+  width: 150px;
+  background-color: blue;
+}
+h1 {
+  width: auto;
+  background-color: orange;
+  color: red;
+  text-align: center;
+}
+figure {
+  height: 200px;
+  width: 300px;
+  background-color: grey;
+}
+
+
+article {
+  width: 125px;
+  margin: 2px 2% 0 4%;
+  background-color: purple;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    min-width: 600px;
+  }
+
+  header {
+    width: 65%;
+    height: 40px;
+    float: left;
+  }
+
+  nav {
+    width: 40%;
+    height: 40px;
+    float: left;
+  }
+
+  h1 {
+    clear: both;
+  }
+  figure {
+    width: 75%;
+    height: 200px;
+    float: left;
+    margin-left: 40px;
+  }
+  main {
+    width: 30%;
+    float: left;
+    margin-left: 5px;
+    background-color: yellow;
+  }
+  .tick1 {
+    margin: auto;
+    height: 180px;
+    display: block;
+    margin-right: 5px;
+  }
+  .tick2 {
+    margin: auto;
+    display: block;
+    height: 180px;
+    margin-right: 5px;
+  }
+  .tick3 {
+    margin: auto;
+    display: block;
+    height: 180px;
+    margin-right: 10px;
+  }
+  footer {
+    margin: 10px 2% 0 4%;
+    height: 50px;
+    float: left;
+    width: 90%;
+    background-color: brown;
+  }
+
+
+
+}
